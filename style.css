@@ -86,7 +86,7 @@ a:hover {
 
 li {
     font-family: 'DM Sans', sans-serif;
-    font-size: 64px;
+    font-size: 54px;
     font-weight: 400;
     line-height: 1.4;
     letter-spacing: 0px;
@@ -100,20 +100,13 @@ li {
 .container {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    width: 100%;
     padding-left: 120px;
-    padding-right: 120px;
 }
 
 .grid {
     padding-bottom: 100px;
 }
 
-main {
-    width: 100%;
-    margin: 0px;
-    padding: 0px;
-}
 
 hr {
     height: 1px;
@@ -124,6 +117,7 @@ hr {
 .intro {
     grid-column: 1 / span 5;
 }
+
 
 /* Navigation */
 
@@ -140,7 +134,6 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 60px;
-    width: 100%;
     margin: 0px;
 }
 
@@ -204,6 +197,8 @@ ul {
     justify-content: space-between;
     grid-column: 1 / span 5;
 }
+
+
 
 .projects {
     grid-column: 1 / span 5;
@@ -276,6 +271,20 @@ ul {
     padding: 0px;
 }
 
+.cv {
+    filter: invert(1);
+    grid-column: 1 / span 6;
+    padding-bottom: 120px;
+}
+
+.cv-row {
+    display: flex;
+}
+
+.cv-skill {
+    padding-right: 40px;
+}
+
 
 
 /* Casestudy */
@@ -292,6 +301,11 @@ ul {
 }
 
 .intro {
+    padding-bottom: 50px;
+}
+
+.intro-dark {
+    color: white;
     padding-bottom: 50px;
 }
 
@@ -550,7 +564,6 @@ footer p {
     .container {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        width: 100%;
         padding-left: 10px;
         padding-right: 10px;
     }
