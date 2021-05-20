@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@100;300;400;500;600&family=Source+Sans+Pro:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;700&family=Inter:wght@100;300;400;500;600&family=Source+Sans+Pro:wght@300;400&display=swap');
 
 
 /* Type styles */
 
 body {
     font-family: 'DM Sans', sans-serif;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 300;
     line-height: 1.8;
     color: #797979;
@@ -114,7 +114,7 @@ li {
 
 
 hr {
-    height: 1px;
+    height: 0.5px;
     background-color: #1a1a1a;
     border: none;
     margin-top: 10px;
@@ -135,6 +135,7 @@ hr {
 .heading-2 {
     display: flex;
     align-items: baseline;
+    justify-content: space-between;
 }
 
 .heading-2 h3 {
@@ -459,7 +460,7 @@ footer p {
 
     body {
         font-family: 'DM Sans', sans-serif;
-        font-size: 16px;
+        font-size: 14px;
         font-weight: 300;
         line-height: 1.8;
         color: #797979;
@@ -590,8 +591,8 @@ footer p {
     .container {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-left: 40px;
+        padding-right: 40px;
     }
 
     .intro {
